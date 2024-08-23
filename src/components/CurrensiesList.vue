@@ -65,7 +65,7 @@
         class="search-input"
         v-model="searchString"
         type="text"
-        placeholder="Search by name"
+        placeholder="Пошук по назві"
       >
       <template v-if="filteredCurrencies.length">
         <table class="currencies-table">
@@ -113,7 +113,7 @@
 
       &__header {
         font-weight: bold;
-        background-color: darkgray;
+        background-color: $darkgray;
         td {
           padding: 0 10px;
           text-align: start;
@@ -123,12 +123,12 @@
       &__body {
         tr {
           &:hover {
-            background-color: lightgray;
+            background-color: $lightgray;
             cursor: pointer;
           }
 
           td {
-            border-bottom: 1px solid darkgray;
+            border-bottom: 1px solid $darkgray;
             padding: 0 10px;
             text-align: start;
           }

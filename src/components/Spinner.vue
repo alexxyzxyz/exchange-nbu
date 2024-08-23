@@ -4,8 +4,8 @@
 
 <style lang="scss" scoped>
 	.spinner {
-		border: 8px solid rgba(0, 0, 0, 0.1);
-		border-top: 8px solid #3498db;
+		border: 8px solid $spinner-border;
+		border-top: 8px solid $spinner-border-top;
 		border-radius: 50%;
 		width: 60px;
 		height: 60px;

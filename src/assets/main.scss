@@ -1,3 +1,5 @@
+@import "variables.scss";
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -15,11 +17,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: $link-color;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: $link-color-hover;
 }
 
 body {
@@ -42,20 +44,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: $button-color;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-.card {
-  padding: 2em;
+  border-color: $button-color-hover;
 }
 
 #app {

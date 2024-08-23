@@ -25,8 +25,8 @@ const currentRouteName = computed(() => route.name)
 
 <style lang="scss" scoped>
 	.header {
-		background: #f5f5f5;
-		color: white;
+		background: $header-bg;
+		color: $white;
 		width: 100%;
 		height: 50px;
 		display: flex;
@@ -40,8 +40,8 @@ const currentRouteName = computed(() => route.name)
 				padding: 5px 20px;
 
 				&.active {
-					color: #ff0494;
-					background-color: white;
+					color: $header-active-menu;
+					background-color: $white;
 				}
 			}
 		}

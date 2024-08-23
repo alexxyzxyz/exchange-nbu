@@ -1,6 +1,6 @@
 <template>
     <p>
-        No Items to display
+        Немає контенту
     </p>
 </template>
 
@@ -11,6 +11,6 @@
         justify-content: center;
         align-items: center;
         font-size: 36px;
-        color: lightgray;
+        color: $lightgray;
     }
 </style>

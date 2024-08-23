@@ -152,9 +152,9 @@
 
         &__server-error,
         &__params-error {
-            color: red;
+            color: $error-text;
             font-size: 18px;
-            background-color: rgb(241, 195, 176);
+            background-color: $error-bg;
             padding: 10px;
         }
 
